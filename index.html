@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shohjahon — Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+  <canvas id="space"></canvas>
+
+  <!-- Top bar -->
+  <header class="topbar">
+    <a class="logo" href="#home">👋 ShoxaCoding</a>
+
+    <nav class="nav" id="nav">
+      <a href="#about">Men haqimda</a>
+      <a href="#skills">Ko‘nikmalar</a>
+      <a href="#projects">Loyihalar</a>
+      <a href="#contact">Aloqa</a>
+    </nav>
+
+    <div class="actions">
+      <button class="icon-btn" id="themeBtn" aria-label="Tema">
+        🌙
+      </button>
+      <button class="burger" id="burger" aria-label="Menu">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main class="container" id="home">
+    <section class="hero">
+      <div class="hero-left">
+        <h1>Salom, men <span class="accent">Shohjahon</span> 👨‍💻</h1>
+        <p class="subtitle">
+          Men <b>Web Dasturlash</b> bilan shug‘ullanaman. Va Men web loyihalar yarataman: sodda, chiroyli va tez ishlaydigan sahifalar. Responsiv dizayn, toza kod va vaqtida topshirish — mening asosiy prinsiplarim. Mijoz bilan aniq kelishib, natijani sifatli chiqarishga harakat qilaman.
+        </p>
+
+        <div class="hero-cta">
+          <a class="btn primary" href="#projects">Loyihalarni ko‘rish</a>
+          <a class="btn ghost" href="#contact">Bog‘lanish</a>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-num">1+</div>
+            <div class="stat-label">yil tajriba</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">15+</div>
+            <div class="stat-label">kichik loyiha</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">100%</div>
+            <div class="stat-label">Backend</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="profile-card">
+          <img class="avatar-img" src="assets/img/photo.jpg" alt="Avatar">
+          <div class="profile-info">
+            <h3>Qurbonboyev Shohjahon</h3>
+            <p class="muted">Yo‘nalish: Developer / Manager / Freelancer</p>
+            <div class="chips">
+              <span class="chip">HTML</span>
+              <span class="chip">CSS</span>
+              <span class="chip">Python</span>
+              <span class="chip">Telegram Bot</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="mini-cards">
+          <div class="mini">
+            <div class="mini-title">📍 Manzil</div>
+            <div class="mini-text">Turtkul, Uzbekistan</div>
+          </div>
+          <div class="mini">
+            <div class="mini-title">💼 Ish</div>
+            <div class="mini-text">Manager / Developer</div>
+          </div>
+          <div class="mini">
+            <div class="mini-title">✨ Fokus</div>
+            <div class="mini-text">Natija & Sifat</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="section-head">
+        <h2>Men haqimda</h2>
+        <p class="muted">Shohjahon — backend developer. 1+ yil tajriba, toza kod va barqaror tizimlar.</p>
+      </div>
+
+      <div class="grid two">
+        <div class="card">
+          <h3>Mening missiyam</h3>
+          <p>
+            Odamlar uchun sodda va qulay interfeyslar yaratish. Tez ishlaydigan,
+            mobilga mos, chiroyli dizaynli dasturlar yaratish — asosiy maqsadim.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Qiziqishlar</h3>
+          <ul class="list">
+            <li>👨‍💻 Coding</li>
+            <li>⚡ Tezkor va toza kod</li>
+            <li>📚 O‘rganish va tajriba</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="section-head">
+        <h2>Ko‘nikmalar</h2>
+      </div>
+
+      <div class="grid three">
+        <div class="card">
+          <h3>Frontend</h3>
+          <p>HTML, CSS, JS — responsive, animatsiya, landing page.</p>
+          <div class="bar">
+            <span style="width: 20%"></span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Dizayn</h3>
+          <p>Minimalistik yondashuv, ranglar, grid va tipografiya.</p>
+          <div class="bar">
+            <span style="width: 10%"></span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Soft skills</h3>
+          <p>Mijoz bilan muloqot, deadline, tartib, mas’uliyat.</p>
+          <div class="bar">
+            <span style="width: 85%"></span>
+          </div>
+        </div>
+
+
+        <div class="card">
+          <h3>Backend</h3>
+          <p>Pythonda loyihalar, Telegram Bot, Web sahifalar</p>
+          <div class="bar">
+            <span style="width: 95%"></span>
+          </div>
+        </div>
+
+
+        <div class="card">
+          <h3>Manager</h3>
+          <p>Loyihalarni rejalashtirish, jamoani muvofiqlashtirish va jarayonlar
+              nazorati.</p>
+          <div class="bar">
+            <span style="width: 50%"></span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Sales</h3>
+          <p>Mijozlar bilan ishlash, Savdo strategiyasi, Muzokara va kelishuv</p>
+          <div class="bar">
+            <span style="width: 70%"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="section-head">
+        <h2>Loyihalar</h2>
+      </div>
+
+      <div class="grid three">
+        <article class="card project">
+          <div class="project-top">
+            <div class="badge">Telegram Bot</div>
+            <div class="dot"></div>
+          </div>
+          <h3>Premium Billiard</h3>
+          <p class="muted">Qisqa tavsif: Billiard club uchun vaqt ochish va buxgalteriya hisobotini avtomatik yuritish.</p>
+          <div class="project-links">
+            <a href="#" target="_blank" rel="noreferrer">Demo</a>
+            <a href="https://github.com/ShohjahonQurbonboyev/Premium_billiard_bot" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="card project">
+          <div class="project-top">
+            <div class="badge">Telegram Bot</div>
+            <div class="dot"></div>
+          </div>
+          <h3>Stroy Mir</h3>
+          <p class="muted">Sotib olingam mahsulotdagi mahsus kodlarni qabul qilib oladi va chegirmalar qilib berdi.</p>
+          <div class="project-links">
+            <a href="#" target="_blank" rel="noreferrer">Demo</a>
+            <a href="https://github.com/ShohjahonQurbonboyev/Stroy_mir_bot" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="card project">
+          <div class="project-top">
+            <div class="badge">Mini App/ Telethon</div>
+            <div class="dot"></div>
+          </div>
+          <h3>Auto Reply</h3>
+          <p class="muted">Telegramdan kelgan chatlarga avto tarzda javob beradi</p>
+          <div class="project-links">
+            <a href="#" target="_blank" rel="noreferrer">Demo</a>
+            <a href="https://github.com/ShohjahonQurbonboyev/auto_reply_bot" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="section-head">
+        <h2>Aloqa</h2>
+      </div>
+
+      <div class="grid two">
+        <div class="card">
+          <h3>Tezkor bog‘lanish</h3>
+          <div class="contact-list">
+            <a class="contact-item" href="https://t.me/this_is_shoxa" target="_blank" rel="noreferrer">💬 Telegram</a>
+            <a class="contact-item" href="https://t.me/this_is_shoxa_bot" target="_blank" rel="noreferrer">🤖 Telegram Bot</a>
+            <a class="contact-item" href="https://instagram.com/this_is_shoxa" target="_blank" rel="noreferrer">📸 Instagram</a>
+            <a class="contact-item" href="https://github.com/ShohjahonQurbonboyev/" target="_blank" rel="noreferrer">💼 GitHub</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Xabar shabloni</h3>
+          <p class="muted">Quyidagi matnni nusxa ko‘chirib yuborishingiz mumkin:</p>
+          <pre class="template" id="msgTpl">Salom, Shohjahon!
+Siz bilan hamkorlik qilmoqchiman. Loyiham: ...
+Muddat: ...
+Budjet: ...
+Bog‘lanish: ...</pre>
+          <button class="btn primary" id="copyBtn">Nusxa olish</button>
+          <p class="hint" id="copyHint" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Shoxa Coding</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
